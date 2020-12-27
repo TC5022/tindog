@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-bold';
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 2% 5% 0;
+}
+
+/* Title-section */
+
+#title{
+  text-align: left;
+}
+
+/* Title-image */
+
+.title-image{
+  width: 25%;
+  transform: rotate(23deg);
+  margin-left: 60px;
+
+  position: absolute;
+}
+
+/* Features */
+
+#features{
+padding: 13% 10%;
+position: relative;
+
+}
+
+
+.feature-title{
+  font-weight: bold;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonial-section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 13% 10%;
+}
+
+/* Pricing-section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media screen and (max-width:1000px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+
+/*  Call to Action  */
+
+
+.cta-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+/* Footer */
+
+.footer-icon{
+  margin: 50px 10px 30px;
+}
